@@ -1,46 +1,46 @@
-# \# Run DMC (Data Metrics Collector)
+# Run DMC (Data Metrics Collector)
 
 # 
 
-# \## Overview
+## Overview
 
 # Run DMC is a fitness tracking API that records workouts and provides analytical insights. The goal is to demonstrate time-series data handling, aggregation queries, and basic analytics.
 
 # 
 
-# \## Features
+## Features
 
-# \- Log workouts (distance, duration, calories)
+- Log workouts (distance, duration, calories)
 
-# \- Track running, cycling, and strength sessions
+- Track running, cycling, and strength sessions
 
-# \- Aggregate stats (weekly/monthly summaries)
+- Aggregate stats (weekly/monthly summaries)
 
-# \- Personal records tracking
+- Personal records tracking
 
-# \- Trend analysis (improving or declining performance)
-
-# 
-
-# \## Tech Stack
-
-# \- ASP.NET Core Web API
-
-# \- Entity Framework Core
-
-# \- SQL Server
-
-# \- LINQ for aggregation queries
-
-# \- AutoMapper
+- Trend analysis (improving or declining performance)
 
 # 
 
-# \## Architecture
+## Tech Stack
 
-# \- Domain-driven design (lightweight)
+- ASP.NET Core Web API
 
-# \- Entities:
+- Entity Framework Core
+
+- SQL Server
+
+- LINQ for aggregation queries
+
+- AutoMapper
+
+# 
+
+## Architecture
+
+- Domain-driven design (lightweight)
+
+- Entities:
 
 # &#x20; - User
 
@@ -48,49 +48,49 @@
 
 # &#x20; - ActivityType
 
-# \- Services handle analytics calculations
+- Services handle analytics calculations
 
 # 
 
-# \## Key Concepts
+## Key Concepts
 
-# \- Time-series data handling
+- Time-series data handling
 
-# \- Aggregation queries (GROUP BY)
+- Aggregation queries (GROUP BY)
 
-# \- DTO mapping
-
-# 
-
-# \## Example Endpoints
-
-# \- POST /api/workouts
-
-# \- GET /api/workouts/user/{id}
-
-# \- GET /api/stats/weekly
-
-# \- GET /api/stats/personal-records
+- DTO mapping
 
 # 
 
-# \## Sample Analytics
+## Example Endpoints
 
-# \- Total distance per week
+- POST /api/workouts
 
-# \- Average pace
+- GET /api/workouts/user/{id}
 
-# \- Fastest run
+- GET /api/stats/weekly
 
-# \- Longest session
+- GET /api/stats/personal-records
 
 # 
 
-# \## Stretch Goals
+## Sample Analytics
 
-# \- Add chart-ready endpoints
+- Total distance per week
 
-# \- Integrate SignalR for live tracking
+- Average pace
 
-# \- Export data as CSV
+- Fastest run
+
+- Longest session
+
+# 
+
+## Stretch Goals
+
+- Add chart-ready endpoints
+
+- Integrate SignalR for live tracking
+
+- Export data as CSV
 
